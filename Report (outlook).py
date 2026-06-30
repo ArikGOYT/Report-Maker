@@ -81,7 +81,7 @@ def send_report_via_outlook():
         # Заполняем поля шаблонного письма
         mail.Subject = f"Ежедневный отчёт за {max(reports_by_day.keys())}"  # или укажите свою тему
         mail.Body = body_text
-        mail.To = "gap@sibrp.su; vny@sibrp.su; YaickijDA@sibrp.su; KaruninAI@sibrp.su"  # укажите нужный адрес
+        mail.To = "example@mail.com"  # укажите нужный адрес
         # mail.CC = "cc@domain.com"
         # При необходимости можно прикрепить файл:
         # mail.Attachments.Add(str(file_path))
